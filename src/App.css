@@ -1,0 +1,13 @@
+.homeroot{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+}
+.imagesize{
+  width:150px;
+  height: 100;
+}
+.app{
+  margin: 5%;
+  
+}
