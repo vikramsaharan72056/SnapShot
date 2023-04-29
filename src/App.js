@@ -64,7 +64,7 @@ function App() {
       </button>
       <section style={{ marginLeft: "5%", marginBottom: "3%" }}>
         <button
-          style={{ marginLeft: "20%" }}
+          style={{ marginLeft: "5%" }}
           className="waves-effect waves-light btn"
           onClick={() => {
             setSearchText("mountains");
