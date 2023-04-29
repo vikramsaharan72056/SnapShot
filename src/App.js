@@ -21,7 +21,7 @@ function App() {
       page: page,
     };
     const parameters = new URLSearchParams(params);
-    const url = `/api/services/rest/?${parameters}`;
+    const url = `https://api.flickr.com/services/rest/?${parameters}`;
     axios
       .get(url)
       .then((result) => {
